@@ -1,5 +1,5 @@
 import discord
-from discord.ext import commands
+# from discord.ext import commands
 import logging
 import sentiment
 
@@ -70,3 +70,10 @@ async def on_message(message):
         await message.channel.send(send)
 
 client.run(token)
+
+# todo: keep sheldon tally
+# todo: "enhance" photos given to sheldon
+# todo: counter to tell garrett to shut up
+# todo: research more ways to analyze text
+# todo: fight club
+# todo: squash - make a person's pfp short and w i d e
